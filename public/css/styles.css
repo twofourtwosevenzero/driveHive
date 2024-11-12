@@ -1,0 +1,38 @@
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-title {
+    font-weight: 800;
+    color: #d4af37;
+}
+
+.card-text {
+    color: #b5b5b5;
+}
+
+.btn-main {
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: #121212;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-main:hover {
+    background-color: #b58e2a;
+}
+
+body {
+    background-image: url('/images/bg.webp'); /* Use the correct file name here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff; /* Adjust text color for readability */
+}
